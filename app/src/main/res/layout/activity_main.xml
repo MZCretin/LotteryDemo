@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#5BC0D8">
+
+    <TextView
+        android:id="@+id/tv_cj"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:text="抽奖啦"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_bottom_bg"/>
+
+        <ImageView
+            android:id="@+id/iv_go"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:src="@mipmap/ic_btn_go"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:paddingBottom="100dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <com.cretin.www.lotterydemo.view.LoopView
+                android:id="@+id/loopview"
+                android:layout_width="340dp"
+                android:layout_height="343dp"
+                android:layout_centerInParent="true">
+
+                <ImageView
+                    android:layout_width="260dp"
+                    android:layout_height="263dp"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="40dp"
+                    android:src="@mipmap/ic_pan"
+                    android:visibility="visible"/>
+
+            </com.cretin.www.lotterydemo.view.LoopView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:paddingBottom="5dp">
+
+                <ListView
+                    android:id="@+id/listview"
+                    android:layout_width="190dp"
+                    android:layout_height="190dp"
+                    android:divider="@null"
+                    android:dividerHeight="0dp"
+                    android:scrollbars="none"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="190dp"
+                android:layout_height="195dp"
+                android:layout_centerInParent="true"
+                android:background="#00000000"
+                android:clickable="true"/>
+
+            <ImageView
+                android:layout_width="231.6dp"
+                android:layout_height="260dp"
+                android:layout_centerInParent="true"
+                android:paddingBottom="16dp"
+                android:paddingTop="13dp"
+                android:src="@mipmap/ic_huan"/>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

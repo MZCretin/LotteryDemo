@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_line"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_white_line"/>
+
+    <ImageView
+        android:id="@+id/iv_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@mipmap/l"/>
+
+    <ImageView
+        android:id="@+id/iv_011"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@mipmap/h"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/iv_0111"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@mipmap/hd"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/iv_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@mipmap/l"/>
+
+    <ImageView
+        android:id="@+id/iv_022"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@mipmap/h"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/iv_0222"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@mipmap/hd"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/iv_03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@mipmap/l"/>
+
+    <ImageView
+        android:id="@+id/iv_033"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@mipmap/h"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/iv_0333"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@mipmap/hd"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/iv_04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@mipmap/l"/>
+
+    <ImageView
+        android:id="@+id/iv_044"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@mipmap/h"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/iv_0444"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@mipmap/hd"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/iv_05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@mipmap/l"/>
+
+    <ImageView
+        android:id="@+id/iv_055"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@mipmap/h"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/iv_0555"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@mipmap/hd"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/iv_06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@mipmap/l"/>
+
+    <ImageView
+        android:id="@+id/iv_066"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@mipmap/h"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/iv_0666"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@mipmap/hd"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/iv_07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@mipmap/l"/>
+
+    <ImageView
+        android:id="@+id/iv_077"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@mipmap/h"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/iv_0777"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@mipmap/hd"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/iv_08"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@mipmap/l"/>
+
+    <ImageView
+        android:id="@+id/iv_088"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@mipmap/h"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/iv_0888"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@mipmap/hd"
+        android:visibility="invisible"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+    >
+
+    <ImageView
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/ic_item_bg"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="25"
+            android:textColor="#fee233"
+            android:textSize="40sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tv_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="果币"
+            android:textSize="14sp"/>
+    </LinearLayout>
+</RelativeLayout>
